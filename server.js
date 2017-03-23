@@ -58,7 +58,7 @@ var initDb = function(callback) {
   });
 };
 
-app.get('/', function (req, res) {
+app.get('/http://smellycat2-smellycat.10.138.0.2.xip.io/', function (req, res) {
   // try to initialize the db on every request if it's not already
   // initialized.
   if (!db) {
